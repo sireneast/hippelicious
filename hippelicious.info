@@ -1,0 +1,20 @@
+; $Id$
+name = "Hippelicious"
+description = "The deliciously simple default Open Hippel theme based on tao for now."
+version = "6.x-1.0"
+core = "6.x"
+engine = "phptemplate"
+base theme = "tao"
+
+project = "Hippelicious"
+project status url = ""
+
+stylesheets[screen][] = "style.css"
+stylesheets[screen][] = "css/forms.css"
+
+scripts[] = "js/theme.js"
+
+regions[content] = "Content"
+regions[right] = "Sidebar"
+
+features[] = ""
