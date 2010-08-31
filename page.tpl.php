@@ -50,6 +50,7 @@
       <?php if ($tabs2) print $tabs2 ?>
     </div>
     <?php endif; ?>
+    <?php if ($lead): ?><div id='lead' class='clear-block'><?php print $lead ?></div><?php endif; ?>
     <div id='content' class='clear-block'><?php print $content ?></div>
   </div>
 

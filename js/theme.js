@@ -20,4 +20,3 @@ Drupal.behaviors.hippelicious = function (context) {
     }
   });
 }
-});

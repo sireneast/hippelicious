@@ -28,8 +28,8 @@ function hippelicious_get_style_info() {
       $styles = array(
         'default' => array(
           'background_color' => '#fff',
-          'background_repeat' => 'repeat-x',
-          'background_url' => url("$path/default.jpg", array('absolute' => TRUE)),
+          // 'background_repeat' => 'repeat-x',
+          // 'background_url' => url("$path/default.jpg", array('absolute' => TRUE)),
         ),
       );
       return !empty($styles[$style]) ? $styles[$style] : $styles['default'];

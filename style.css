@@ -177,11 +177,21 @@ div.right div.admin-panel { margin-left:10px; }
 div.left div.admin-panel { margin-right:10px; }
 
 /**
+ * Page lead =======================================================
+ */
+#page #lead {
+  margin-bottom: 10px;
+  background:#f8f8f8;
+  border:1px solid #ddd;
+  padding:9px 20px 10px;
+  }
+
+/**
  * Page content =======================================================
  */
 #page #content {
   background:#f8f8f8;
-  border-top:1px solid #ddd;
+  border:1px solid #ddd;
   padding:19px 20px 20px;
 
   -moz-border-radius-bottomleft:5px;
