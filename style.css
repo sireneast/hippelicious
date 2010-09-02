@@ -61,14 +61,14 @@ body.fluid #sidebar { width:20%; }
 /**
  * Branding ===========================================================
  */
-#branding { padding:0px 10px 0px; }
+#branding { padding:0px; }
 
 #branding a { color:#333; }
 
 #branding div.secondary {
   padding:20px 0px 10px;
   height:20px;
-  line-height:20px;
+  line-height:10px;
 
   font-size:11px;
   overflow:hidden;
@@ -79,26 +79,31 @@ body.fluid #sidebar { width:20%; }
   #branding div.secondary ul.links li a {
     border-left:1px solid #111;
     padding:0px 10px 0px 9px;
+    text-transform:lowercase;
     }
 
   #branding div.secondary ul.links li.first a { border:0px; }
 
 #branding div.primary ul.links {
-  height:40px;
-  line-height:40px;
+  height:36px;
+  line-height:36px;
   padding:10px 0px;
-  float:right;
+  float:left;
   }
 
-  #branding div.primary ul.links li { padding-left:5px; }
+  #branding div.primary ul.links li { padding-right:5px;}
 
   #branding div.primary ul.links a {
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
+    width: 90px;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 14px;
+    background:#f86600;
     padding:0px 15px;
+    text-align: center;
     }
 
-    #branding div.primary ul.links a:hover { background:#39b; }
+    #branding div.primary ul.links a:hover, #branding div.primary ul.links a.active { background:#333; }
 
 #branding h1.site-name {
   font-size:28px;
@@ -112,12 +117,6 @@ body.fluid #sidebar { width:20%; }
  * Breadcrumb =========================================================
  */
 #utility {
-  -moz-border-radius-topleft:5px;
-  -moz-border-radius-topright:5px;
-  -webkit-border-top-left-radius:5px;
-  -webkit-border-top-right-radius:5px;
-
-  color:#ccc;
   padding:0px 5px;
   line-height:30px;
   font-weight:300;
@@ -126,7 +125,6 @@ body.fluid #sidebar { width:20%; }
 
 #utility a {
   margin:0px 5px;
-  color:#333;
   }
 
 /**
@@ -180,22 +178,15 @@ div.left div.admin-panel { margin-right:10px; }
  * Page lead =======================================================
  */
 #page #lead {
-  margin-bottom: 10px;
-  background:#f8f8f8;
-  border:1px solid #ddd;
-  padding:9px 20px 10px;
   }
 
 /**
  * Page content =======================================================
  */
-#page #content {
+#page #content div.field {
   background:#f8f8f8;
   border:1px solid #ddd;
   padding:19px 20px 20px;
-
-  -moz-border-radius-bottomleft:5px;
-  -moz-border-radius-bottomright:5px;
   }
 
 #page #content div.block {
@@ -274,14 +265,14 @@ div.left div.admin-panel { margin-right:10px; }
  */
 table {
   border:5px solid #fff;
-  background:#f0f8fa;
+  background:#f8f8f8;
   font-size:13px;
   margin:0px 0px 20px;
   }
 
   div.block table { margin:0px; }
 
-table tr.odd { background:#f0f8fa; }
+table tr.odd { background:#f8f8f8; }
 
 table thead tr,
 table tr.even { background:#f6fbfc; }
@@ -309,6 +300,22 @@ dl dd {
 /**
  * Blocks =============================================================
  */
+
+#lead div.block {
+ background:#f8f8f8;
+ border:1px solid #ddd;
+ padding:20px;
+ margin-bottom: 10px;
+ }
+
+#lead div.view-display-id-hippel_idea_images_block div.view-content {
+  float: left;
+}
+
+#lead div.attachment-after div.view-hippel-idea-images {
+  float: right;
+}
+
 #sidebar div.block {
   padding:10px 10px 10px 0px;
  }
