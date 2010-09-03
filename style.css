@@ -28,7 +28,7 @@ a:hover {
 
   color:#333;
 
-  margin:100px 0px 0px;
+  margin:196px 0px 0px;
   float:right;
   width:140px;
   }
@@ -317,7 +317,7 @@ dl dd {
 }
 
 #sidebar div.block {
-  padding:10px 10px 10px 0px;
+  padding:0px 0px 10px 0px;
  }
 
 #sidebar div.block h2.block-title {
@@ -351,6 +351,29 @@ div.block ul.menu li li li li li a { padding-left:50px; }
 div.block ul.menu li li li li li li a { padding-left:60px; }
 div.block ul.menu li li li li li li li a { padding-left:70px; }
 div.block ul.menu li li li li li li li li a { padding-left:80px; }
+
+/* Flag sidebar block */
+#block-hippel_idea-hippel-idea-flag h2.block-title {
+  display:none;
+  }
+
+#block-hippel_idea-hippel-idea-flag a.flag {
+  float:left;
+  width:120px;
+  height:20px;
+  padding:10px 10px;
+  border:1px solid #eee;
+  color:#fff;
+  font-weight:normal;
+  font-size:14px;
+  background:#f86600;
+  text-decoration:none;
+  text-align:center;
+  }
+
+span.flag-throbber {
+  display:none;
+  }
 
 /**
  * Nodes ==============================================================
@@ -395,6 +418,10 @@ div.node-links ul.links {
 div.node div.field { margin:0px 0px 10px; }
 
 div.prose { line-height:20px; }
+
+div.views-field-field-idea-image-fid img {
+  border:3px solid #333;
+}
 
 /**
  * Pagers =============================================================
