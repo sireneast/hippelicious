@@ -56,6 +56,7 @@ div.buttons { text-align:center; }
 #content div.form-item { margin-bottom:20px; }
 #content div.form-option { margin-bottom:10px; }
 #content table div.form-item { margin-bottom:0px; }
+#content div.form-radios div.form-item { margin-bottom:0; }
 
 /**
  * FIELDSETS  =========================================================
