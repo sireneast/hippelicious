@@ -27,7 +27,7 @@
   <div id='main'><div class='limiter'>
 
   <div id='branding' class='clear-block'>
-    <?php if ($site_name): ?><h1 class='site-name'><?php print '<img alt="'. strip_tags($site_name) .'" src="'. check_url($logo) .'" id="logo" />'?></h1><?php endif; ?>
+    <?php if ($site_name): ?><h1 class='site-name'><a href="<?php print $front_page ?>"><?php print '<img alt="'. strip_tags($site_name) .'" src="'. check_url($logo) .'" id="logo" />'?></a></h1><?php endif; ?>
     <div class='secondary'>
       <?php if (isset($secondary_links)) print theme('links', $secondary_links, array('class' => 'links secondary-links')) ?>
     </div>
